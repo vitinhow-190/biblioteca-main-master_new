@@ -20,6 +20,10 @@ switch($url)
         InicialController::index();
     break;
 
+    case '/phpinfo':
+        phpinfo();
+    break;
+
     /**
      * Rotas para Login
      */
