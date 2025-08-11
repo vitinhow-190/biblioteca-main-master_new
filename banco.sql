@@ -63,6 +63,6 @@ FOREIGN KEY(Id_Livro) REFERENCES Livro (Id),
 FOREIGN KEY(Id_Aluno) REFERENCES Aluno (Id)
 );
 
-INSERT INTO Usuario(nome, email,senha) VALUES ('caio','caio@caio.com',sha1('123'));
+INSERT INTO Usuario(nome, email,senha) VALUES ('victor','victor@victor.com',sha1('123'));
 
 select * from usuario;
