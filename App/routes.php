@@ -109,4 +109,8 @@ switch($url)
     case '/emprestimo/delete':
         EmprestimoController::delete();
     break;  
+
+    case '/info':
+        phpinfo();
+    break;
 }
