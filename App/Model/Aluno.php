@@ -53,7 +53,7 @@ final class Aluno extends Model {
         }
 
         function getAllRows() : array{
-            $this->rows = new AlunoDAO()->selecte();
+            $this->rows = new AlunoDAO()->select();
         
             return $this->rows;
         }

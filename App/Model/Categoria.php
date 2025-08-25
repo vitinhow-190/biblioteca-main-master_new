@@ -29,7 +29,7 @@ final class Categoria extends Model {
         }
 
         function getAllRows() : array{
-            $this->rows = new CategoriaDAO()->selecte();
+            $this->rows = new CategoriaDAO()->select();
         
             return $this->rows;
         }

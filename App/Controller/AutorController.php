@@ -36,7 +36,7 @@
                 {
                     $model->Id = !empty($_POST['id']) ? $_POST['id'] : null;
                     $model->Nome = $_POST['nome'];
-                    $model->Data_de_Nascimento= $_POST['data de nascimento'];
+                    $model->Data_de_Nascimento= $_POST['data_nascimento'];
                     $model->CPF = $_POST['cpf'];
                     $model->save();
 

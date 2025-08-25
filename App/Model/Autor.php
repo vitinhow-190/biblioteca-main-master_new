@@ -53,7 +53,7 @@ final class Autor extends Model {
         }
 
         function getAllRows() : array{
-            $this->rows = new AutorDAO()->selecte();
+            $this->rows = new AutorDAO()->select();
         
             return $this->rows;
         }
